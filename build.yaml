@@ -39,7 +39,10 @@ include:
     shield: totem_right
   - board: xiao_ble
     shield: settings_reset
-  - board: nice_nano
+  - board: xiao_ble
     shield: totem_left
+    snippet: zmk-usb-logging
+  - board: xiao_ble
+    shield: totem_right
     snippet: zmk-usb-logging
 
